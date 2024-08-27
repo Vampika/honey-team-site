@@ -1,0 +1,22 @@
+.button {
+	font-size: 24px;
+	font-weight: 700;
+	width: 200px;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 7px 0;
+}
+
+.orange {
+	color: var(--text-color-white);
+	background: var(--secondary-gradient);
+	
+	box-shadow: 0px 4px 6px 0px rgba(255, 80, 0, 40%);
+}
+
+.white {
+	border: 2px solid var(--text-color-white);
+	padding: 5px 0;
+}
