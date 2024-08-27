@@ -9,7 +9,7 @@ return(<section className={styles["secondary-section"]}>
 	<div className="wrapper">
 		
 		<div className={styles["content"]}>
-			<img src="../public/images/repos.png" className={styles["image"]}></img>
+			<img src="images/repos.png" className={styles["image"]}></img>
 		<Title className={styles["secondary-title"]}>Мы за OpenSource</Title>
 		<p className={styles["text"]}>Почти все наши проекты публикуются на GitHub. Даже этот сайт! Это дает возможность вам принять участие в разработке.</p>
 		<Button modificator="main">GitHub</Button>

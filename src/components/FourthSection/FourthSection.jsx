@@ -9,13 +9,13 @@ function FourthSection() {
       <div className="wrapper">
         <div className={styles["content"]}>
 			<div className={styles["images-wrapper"]}>
-				<img src="../public/icons/main-page-icons/Python.svg"></img>
-				<img src="../public/icons/main-page-icons/Html.svg"></img>
-				<img src="../public/icons/main-page-icons/Css.svg"></img>
-				<img src="../public/icons/main-page-icons/Js.svg"></img>
-				<img src="../public/icons/main-page-icons/Bd.svg"></img>
-				<img src="../public/icons/main-page-icons/C.svg"></img>
-				<img src="../public/icons/main-page-icons/C++.svg"></img>
+				<img src="icons/main-page-icons/Python.svg"></img>
+				<img src="icons/main-page-icons/Html.svg"></img>
+				<img src="icons/main-page-icons/Css.svg"></img>
+				<img src="icons/main-page-icons/Js.svg"></img>
+				<img src="icons/main-page-icons/Bd.svg"></img>
+				<img src="icons/main-page-icons/C.svg"></img>
+				<img src="icons/main-page-icons/C++.svg"></img>
 			</div>
           <Title className={styles["fourth-title"]}>Много участников</Title>
           <p className={styles["text"]}>
