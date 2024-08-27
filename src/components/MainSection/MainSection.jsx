@@ -6,7 +6,7 @@ return(<section className={styles["main-section"]}>
 	<div className="wrapper">
 		<div className={styles["main-section__wrapper"]}>
 			<div className={styles["logo"]}>
-				<img src="../../public/images/logo_big.png"></img>
+				<img src="images/logo_big.png"></img>
 			</div>
 			<h1 className={styles["header"]}>HoneyTeam</h1>
 			<p className={styles["text"]}>Мы - команда разработчиков, которые создают <br></br> различные проекты для помощи людям.</p>
