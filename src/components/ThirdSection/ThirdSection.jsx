@@ -1,7 +1,6 @@
 import DecorativeLine from "../DecorativeLine/DecorativeLine";
 import Title from "../Title/Title";
 import styles from "./ThirdSection.module.css";
-import cn from "classnames";
 
 function ThirdSection() {
   return (
