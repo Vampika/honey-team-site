@@ -2,7 +2,7 @@
   "name": "honey-team-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vampika.github.io/",
+  "homepage": "https://vampika.github.io/honey-team-site",
   "type": "module",
   "scripts": {
     "dev": "vite",
