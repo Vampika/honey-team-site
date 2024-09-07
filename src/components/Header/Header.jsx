@@ -1,17 +1,17 @@
 import Icons from "../Icons/Icons";
 import Logo from "../Logo/Logo";
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header className={styles["header-color"]}>
-      <div className="wrapper">
         <div className={styles["header"]}>
           <div className={styles["left-part"]}>
-            <a href="#!"><Logo color="white" /></a>
+            <Link to="/"><Logo color="white" /></Link>
             <ul className={styles["header__nav"]}>
               <li><a href="#!">Проекты</a></li>
-              <li><a href="#!">Участники</a></li>
+              <li><Link to="/members">Участники</Link></li>
               <li><a href="#!">Блог</a></li>
             </ul>
           </div>
@@ -21,7 +21,6 @@ function Header() {
 		  <a href="#!"><Icons name="github"/></a>
 		  </div>
         </div>
-      </div>
     </header>
   );
 }

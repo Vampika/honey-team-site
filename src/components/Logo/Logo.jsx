@@ -3,7 +3,6 @@ import styles from "./Logo.module.css";
 import cn from "classnames";
 
 function Logo({ color }) {
-  console.log(color);
   return (
     <div className={styles["logo__wrapper"]}>
       <Icons

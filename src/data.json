@@ -1,0 +1,25 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "gh": "bleudev",
+      "banner": "/members/banners/bleudev.png",
+      "langs": ["py", "js"],
+      "projects": ["ufpy", "DuplicateBot"]
+    },
+    {
+      "id": 2,
+      "gh": "bleudev2",
+      "banner": "/members/banners/bleudev.png",
+      "langs": ["py", "js", "lua"],
+      "projects": ["ufpy", "DuplicateBot"]
+    },
+    {
+      "id": 3,
+      "gh": "bleudev3",
+      "banner": "/members/banners/bleudev.png",
+      "langs": ["py", "js"],
+      "projects": ["ufpy", "DuplicateBot"]
+    }
+  ]
+}

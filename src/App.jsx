@@ -1,23 +1,41 @@
-import FifthSection from "./components/FifthSection/FifthSection"
-import Footer from "./components/Footer/Footer"
-import FourthSection from "./components/FourthSection/FourthSection"
-import Header from "./components/Header/Header"
-import Logo from "./components/Logo/Logo"
-import MainSection from "./components/MainSection/MainSection"
-import SecondarySection from "./components/SecondarySection/SecondarySection"
-import ThirdSection from "./components/ThirdSection/ThirdSection"
+import MainPage from "./pages/MainPage.jsx"
+import MemebersPage from "./pages/MembersPage.jsx"
+import MemberPage from "./pages/MemberPage.jsx";
+import Error from "./pages/Error.jsx"
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Layout } from "./layout/Layout.jsx";
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <MainPage />
+      },
+      {
+        path: "/members",
+        element: <MemebersPage />,
+      },
+      {
+        path: "/members/:id",
+        element: <MemberPage />
+      },
+      {
+        path: "*",
+        element: <Error />
+      }
+    ]
+  },
+
+]);
 
 function App() {
 
   return (
     <>
-  <Header />
-  <MainSection />
-  <SecondarySection />
-  <ThirdSection />
-  <FourthSection />
-  <FifthSection />
-  <Footer />
+    <RouterProvider router={router} />
     </>
   )
 }
