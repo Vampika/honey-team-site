@@ -12,7 +12,7 @@ return(<section className={styles["secondary-section"]}>
 			<img src="images/repos.png" className={styles["image"]}></img>
 		<Title className={styles["secondary-title"]}>Мы за OpenSource</Title>
 		<p className={styles["text"]}>Почти все наши проекты публикуются на GitHub. Даже этот сайт! Это дает возможность вам принять участие в разработке.</p>
-		<Button modificator="main">GitHub</Button>
+		<a href="https://github.com/honey-team" target="_blank"><Button modificator="main">GitHub</Button></a>
 		</div>
 
 	</div>

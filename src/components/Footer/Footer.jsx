@@ -1,5 +1,6 @@
 import Logo from "../Logo/Logo";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
 return(<footer className={styles["footer"]}>
@@ -13,9 +14,9 @@ return(<footer className={styles["footer"]}>
 	<div className={styles["right-part"]}>
 		<ul className={styles["navigation"]}>
 			<li>Страницы</li>
-			<li><a href="#!">Главная</a></li>
+			<li><Link to="/">Главная</Link></li>
 			<li><a href="#!">Проекты</a></li>
-			<li><a href="#!">Участники</a></li>
+			<li><Link to="/members">Участники</Link></li>
 			<li><a href="#!">Блог</a></li>
 		</ul>
 		<ul className={styles["navigation"]}>

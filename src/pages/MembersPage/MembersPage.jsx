@@ -1,7 +1,7 @@
-import MemberCard from "../components/MemberCard/MemberCard.jsx";
-import TitleSection from "../components/TitleSection/TitleSection.jsx";
+import MemberCard from "../../components/MemberCard/MemberCard.jsx";
+import TitleSection from "../../components/TitleSection/TitleSection.jsx";
 import styles from "./MembersPage.module.css";
-import file from "../data.json";
+import file from "../../data.json";
 import { useEffect, useState } from "react";
 
 function MemebersPage() {
@@ -23,7 +23,6 @@ function MemebersPage() {
 
   return (
     <>
-      <div className="content">
         <TitleSection title="Участники" />
         <section className={styles["list-section"]}>
           <div className="wrapper">
@@ -46,7 +45,6 @@ function MemebersPage() {
             )}
           </div>
         </section>
-      </div>
     </>
   );
 }

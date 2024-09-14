@@ -1,15 +1,15 @@
 @font-face {
   font-family: "fredoka-one";
   src: local('FredokaOne'),
-  url('../public/fonts/FredokaOne-Regular.woff2') format('woff2'),
-  url('../public/fonts/FredokaOne-Regular.woff') format('woff');
+  url('../fonts/FredokaOne-Regular.woff2') format('woff2'),
+  url('../fonts/FredokaOne-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: "Nunito";
   src: local('Nunito'),
-  url('../public/fonts/Nunito-Regular.woff2') format('woff2'),
-  url('../public/fonts/Nunito-Regular.woff') format('woff');
+  url('../fonts/Nunito-Regular.woff2') format('woff2'),
+  url('../fonts/Nunito-Regular.woff') format('woff');
   font-style: normal;
   font-weight: 400;
 }
@@ -17,8 +17,8 @@
 @font-face {
   font-family: "Nunito";
   src: local('Nunito'),
-  url('../public/fonts/Nunito-Medium.woff2') format('woff2'),
-  url('../public/fonts/Nunito-Medium.woff') format('woff');
+  url('../fonts/Nunito-Medium.woff2') format('woff2'),
+  url('../fonts/Nunito-Medium.woff') format('woff');
   font-style: normal;
   font-weight: 500;
 }
@@ -26,8 +26,8 @@
 @font-face {
   font-family: "Nunito";
   src: local('Nunito'),
-  url('../public/fonts/Nunito-SemiBold.woff2') format('woff2'),
-  url('../public/fonts/Nunito-SemiBold.woff') format('woff');
+  url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+  url('../fonts/Nunito-SemiBold.woff') format('woff');
   font-style: normal;
   font-weight: 600;
 }
@@ -35,8 +35,8 @@
 @font-face {
   font-family: "Nunito";
   src: local('Nunito'),
-  url('../public/fonts/Nunito-Bold.woff2') format('woff2'),
-  url('../public/fonts/Nunito-Bold.woff') format('woff');
+  url('../fonts/Nunito-Bold.woff2') format('woff2'),
+  url('../fonts/Nunito-Bold.woff') format('woff');
   font-style: normal;
   font-weight: 700;
 }
@@ -44,8 +44,8 @@
 @font-face {
   font-family: "Nunito";
   src: local('Nunito'),
-  url('../public/fonts/Nunito-ExtraBold.woff2') format('woff2'),
-  url('../public/fonts/Nunito-ExtraBold.woff') format('woff');
+  url('../fonts/Nunito-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Nunito-ExtraBold.woff') format('woff');
   font-style: normal;
   font-weight: 800;
 }
@@ -53,8 +53,8 @@
 @font-face {
   font-family: "Nunito";
   src: local('Nunito'),
-  url('../public/fonts/Nunito-Black.woff2') format('woff2'),
-  url('../public/fonts/Nunito-Black.woff') format('woff');
+  url('../fonts/Nunito-Black.woff2') format('woff2'),
+  url('../fonts/Nunito-Black.woff') format('woff');
   font-style: normal;
   font-weight: 900;
 }
@@ -126,3 +126,4 @@ a {
   flex: 1 1 100%;
   width: 100%;
 }
+

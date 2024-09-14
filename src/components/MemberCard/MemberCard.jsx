@@ -3,11 +3,16 @@ import Icons from "../Icons/Icons";
 import { Link } from "react-router-dom";
 
 function MemberCard({ member }) {
+
+  let links = ["github", "cite", "telegram", "discord"];
+
   return (
-    <Link to={`/members/${member.id}`}>
+    
     <div className={styles["card"]}>
-      <div className={styles["image"]}></div>
-      <p className={styles["title"]}>{member.gh}</p>
+      <div className={styles["image"]}>
+        <img src={member.banner}></img>
+      </div>
+      <Link to={`/members/${member.id}`}><p className={styles["title"]}>{member.gh}</p></Link>
       <div className={styles["skills"]}>
         {
           member.langs.map((item, index) => {
@@ -16,12 +21,16 @@ function MemberCard({ member }) {
         }
       </div>
       <div className={styles["contacts"]}>
-        <div href="#!" className={styles["contact-btn"]}>
-          <Icons name="discord" />
-        </div>
+        {
+          member.links.map((item, index) => {
+            return <a href={item} target="_blank" className={styles["contact-btn"]} key={index}>
+              <Icons name={links[index]} />
+            </a>
+          })
+        }
       </div>
     </div>
-    </Link>
+    
   );
 }
 

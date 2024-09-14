@@ -10,7 +10,7 @@ function Header() {
           <div className={styles["left-part"]}>
             <Link to="/"><Logo color="white" /></Link>
             <ul className={styles["header__nav"]}>
-              <li><a href="#!">Проекты</a></li>
+              <li><Link to="/projects">Проекты</Link></li>
               <li><Link to="/members">Участники</Link></li>
               <li><a href="#!">Блог</a></li>
             </ul>

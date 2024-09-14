@@ -24,9 +24,10 @@
 .skills {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 18px);
+	grid-template-columns: repeat(auto-fit, 18px);
 	grid-gap: 5px;
 	justify-content: center;
+	justify-items: center;
 }
 
 .skills svg {
@@ -38,7 +39,8 @@
 .contacts {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(48px, 100px));
+	grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+	grid-auto-flow: column;
 	grid-gap: 10px;
 	justify-content: center;
 }

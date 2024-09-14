@@ -1,9 +1,10 @@
-import MainPage from "./pages/MainPage.jsx"
-import MemebersPage from "./pages/MembersPage.jsx"
-import MemberPage from "./pages/MemberPage.jsx";
-import Error from "./pages/Error.jsx"
+import MainPage from "./pages/MainPage/MainPage.jsx"
+import MemebersPage from "./pages/MembersPage/MembersPage.jsx"
+import MemberPage from "./pages/MemberPage/MemberPage.jsx";
+import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./layout/Layout.jsx";
+import ProjectsPage from "./pages/ProjectsPage/ProjectsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,8 +24,12 @@ const router = createBrowserRouter([
         element: <MemberPage />
       },
       {
+        path: "/projects",
+        element: <ProjectsPage />
+      },
+      {
         path: "*",
-        element: <Error />
+        element: <ErrorPage />
       }
     ]
   },

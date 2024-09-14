@@ -8,6 +8,12 @@
 	background-color: var(--light-gray-color);
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .dash {
 	bottom: 20px;
 }
