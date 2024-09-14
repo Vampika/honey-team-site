@@ -3,7 +3,7 @@
     {
       "id": 1,
       "gh": "bleudev",
-      "banner": "public/images/avatars/avatar1.png",
+      "banner": "./images/avatars/avatar1.png",
       "bio": "здесь типо био в одну строку",
       "langs": ["py", "js", "lua", "py", "js", "lua"],
       "projects": ["ufpy", "DuplicateBot"],
